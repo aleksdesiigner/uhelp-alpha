@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="style/hover.css">
+  <link rel="stylesheet" href="style/style.css" />
+  <title>#uhelp</title>
+</head>
+
+<body>
+  <header>
+    <div class="head-container">
+      <div class="top-menu">
+        <div class="burger-menu">
+          <i class="fa fa-bars" aria-hidden="true"></i><a href="#" class="explore">Explore</a>
+        </div>
+        <div id="logo"><a href="index.html" class="logotype hvr-pulse-grow">#uhelp</a></div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#" class="btn-login">Login</a></>
+            <li><button class="btn-add hvr-radial-out">add request</button></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <nav class="categories-menu">
+        <ul>
+          <li class="tab" data-f="all" class="active">All Categories
+          </li>
+          <li class="tab" data-f="urgently">Urgently</li>
+          <li class="tab" data-f="kids">Kids</li>
+          <li class="tab" data-f="pets">Pets</li>
+          <li class="tab" data-f="health">Health Care</li>
+          <li class="tab" data-f="addictions">Addictions</li>
+          <li class="tab" data-f="homeless">homeless</li>
+          <li class="tab" data-f="religion">religion</li>
+        </ul>
+      </nav>
+      <hr />
+    </div>
+  </header>
+  <main>
+    <div class="main-container">
+      <div id="search">
+        <h2 class="categ-title">They need your help</h2>
+        <p class="categ-sub-title">
+          Do you or your loved ones need help? Leave your request at
+          <span>uhelp</span> and kind people will help.
+        </p>
+        <input type="text" id="filterInput" placeholder="Search..." />
+      </div>
+      <div class="requests-list">
+        <h3 class="list-tag"></h3>
+        <div id="requests">
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">Need heart operation</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets urgently all">
+            <img class="card-img" src="./img/pet-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">Please save my cat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card addictions urgently all">
+            <img class="card-img" src="./img/addict-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#addictions</a>
+            </div>
+            <h3 class="card-title">
+              To open an addiction treatment center
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">We need your help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img3.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">
+              Sisters ask for help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets all">
+            <img class="card-img" src="./img/pet-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">
+              I want to play and eat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card religion all">
+            <img class="card-img" src="./img/rel-img.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#religion</a>
+            </div>
+            <h3 class="card-title">
+              Assistance program for the elderly
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img4.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">I have a small dream</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">Need heart operation</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets urgently all">
+            <img class="card-img" src="./img/pet-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">Please save my cat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card addictions urgently all">
+            <img class="card-img" src="./img/addict-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#addictions</a>
+            </div>
+            <h3 class="card-title">
+              To open an addiction treatment center
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">We need your help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img3.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">
+              Sisters ask for help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets all">
+            <img class="card-img" src="./img/pet-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">
+              I want to play and eat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card religion all">
+            <img class="card-img" src="./img/rel-img.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#religion</a>
+            </div>
+            <h3 class="card-title">
+              Assistance program for the elderly
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img4.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">I have a small dream</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">Need heart operation</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets urgently all">
+            <img class="card-img" src="./img/pet-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">Please save my cat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card addictions urgently all">
+            <img class="card-img" src="./img/addict-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#addictions</a>
+            </div>
+            <h3 class="card-title">
+              To open an addiction treatment center
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">We need your help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img3.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">
+              Sisters ask for help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets all">
+            <img class="card-img" src="./img/pet-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">
+              I want to play and eat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card religion all">
+            <img class="card-img" src="./img/rel-img.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#religion</a>
+            </div>
+            <h3 class="card-title">
+              Assistance program for the elderly
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img4.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">I have a small dream</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">Need heart operation</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets urgently all">
+            <img class="card-img" src="./img/pet-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">Please save my cat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card addictions urgently all">
+            <img class="card-img" src="./img/addict-img.png" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#addictions</a>
+            </div>
+            <h3 class="card-title">
+              To open an addiction treatment center
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids urgently all">
+            <img class="card-img" src="./img/kid-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag-u">#urgently</a>
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">We need your help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img3.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">
+              Sisters ask for help</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+          <div class="req-card pets all">
+            <img class="card-img" src="./img/pet-img2.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#pets</a>
+            </div>
+            <h3 class="card-title">
+              I want to play and eat</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$1,437</span>
+              <span class="percent">57%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="57"></progress>
+          </div>
+          <div class="req-card religion all">
+            <img class="card-img" src="./img/rel-img.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#religion</a>
+            </div>
+            <h3 class="card-title">
+              Assistance program for the elderly
+            </h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$750</span>
+              <span class="percent">15%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="15"></progress>
+          </div>
+          <div class="req-card kids all">
+            <img class="card-img" src="./img/kid-img4.jpg" alt="" width="270px" height="175px" />
+            <div class="tags">
+              <a href="#" class="tag">#kids</a>
+            </div>
+            <h3 class="card-title">I have a small dream</h3>
+            <p class="card-text">
+              Etiam odio lectus, lacinia et velit id, tristique volutpat leo.
+            </p>
+            <a href="#" class="author">by Vera Farmiga</a>
+            <div class="donate-inf">
+              <span class="money">$18,250</span>
+              <span class="percent">73%</span>
+            </div>
+            <progress class="donate-bar" max="100" value="73"></progress>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="foot-container">
+      <div class="footer-line"></div>
+      <div class="foot-nav">
+        <ul>
+          <li class="footer-logo">
+            <a class="foot-logo" href="#">#uhelp</a>
+          </li>
+          <li><a href="#" class="foot-link">Urgently</a></li>
+          <li><a href="#" class="foot-link">Kids</a></li>
+          <li><a href="#" class="foot-link">Pets</a></li>
+          <li><a href="#" class="foot-link">Health Care</a></li>
+          <li><a href="#" class="foot-link">Addictions</a></li>
+          <li><a href="#" class="foot-link">homeless</a></li>
+          <li><a href="#" class="foot-link">religion</a></li>
+          <li><a href="#" class="foot-link">foundations</a></li>
+        </ul>
+      </div>
+      <div class="footer-line2"></div>
+      <div class="foot-info">
+        <p>©2020 Uhelp. All Rights Reserved</p>
+        <div class="foot-more-info">
+          <a href="#">Trust and Safety</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Login -->
+  <div class="login">
+    <div class="login-body">
+      <div class="login-content">
+        <a href="" class="popup-close"><img src="./img/icons/ic_close.svg" alt="" /></a>
+        <div class="login-title">
+          Welcome to #uhelp!
+        </div>
+        <div class="login-email">
+          <label for="log-email">Email</label>
+          <input type="email" id="log-email" name="log-email" placeholder="Your email" />
+        </div>
+
+        <div class="login-pass">
+          <label for="log-pass">Password</label>
+          <input type="password" id="log-pass" name="log-pass" placeholder="Your name" />
+        </div>
+
+
+        <div class="login-btns">
+          <button id="btn-close-login">Close</button>
+          <button id="btn-sign-in">Sign In</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- POPUPS -->
+  <div class="popup-add">
+    <div class="popup-body">
+      <div class="popup-content">
+        <a href="" class="popup-close close-popup"><img src="./img/icons/ic_close.svg" alt="" /></a>
+        <div class="popup-title">
+          Add Your Request
+        </div>
+        <div class="upload-photo">
+          <form action="javascript: void(0)">
+            <div class="img-upload"></div>
+            <label for="myFile">Choose file to upload</label>
+            <input class="file-upload-input" type="file" name="myFile" id="myFile" />
+            <button class="file-upload-btn" type="button">
+              Choose Image
+            </button>
+            <span class="file-upload-label">No file selected</span>
+        </div>
+        <div class="your-name">
+          <label for="req-name">Full Name</label>
+          <input type="text" id="req-name" name="req-name" placeholder="Your full name" />
+        </div>
+        <div class="select-category">
+          <label for="category">Category</label>
+          <select id="category" name="category">
+            <option value="kids">Kids</option>
+            <option value="pets">Pets</option>
+            <option value="health">Health</option>
+            <option value="addictions">Addictions</option>
+            <option value="homeless">Homeless</option>
+            <option value="religion">Religion</option>
+          </select>
+        </div>
+        <div class="your-title">
+          <label for="title">Title</label>
+          <input data-rule="text" type="text" id="title" name="title" placeholder="Request title..." />
+        </div>
+        <div class="your-text"><label for="rtext">Text</label>
+          <textarea data-rule="text" id="about" name="rtext">Text here...</textarea></div>
+        <div class="need-money">
+          <label for="amount">Required amount</label>
+          <input data-rule="number" type="number" id="amount" name="amount" placeholder="Required amount..." />
+        </div>
+        <div class="popup-btns">
+          <button id="btn-close">Close</button>
+          <button id="btn-send">Send</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script/script.js"></script>
+  <script src="requests.js"></script>
+
+</body>
+
+</html>
