@@ -48,23 +48,39 @@
   cursor: pointer;
   color: #ffffff;
   background-color: #7a3edb;
+  -webkit-transition: ease-in-out;
+  -o-transition: ease-in-out;
   transition: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
 
 .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 100px;
   width: 1140px;
   height: 300px;
   color: #ffffff;
+  background: -o-linear-gradient(45deg,
+      rgba(110, 54, 202, 0.85),
+      rgba(110, 54, 202, 0.7)),
+    url(./img/baner.png);
   background: linear-gradient(45deg,
       rgba(110, 54, 202, 0.85),
       rgba(110, 54, 202, 0.7)),
     url(./img/baner.png);
+  -webkit-box-shadow: 0px 10px 20px rgba(11, 40, 56, 0.05);
   box-shadow: 0px 10px 20px rgba(11, 40, 56, 0.05);
   border-radius: 5px;
 }
@@ -135,6 +151,7 @@
   .back-ic {
     width: 360px;
     margin-top: 100px;
+    -o-object-fit: cover;
     object-fit: cover;
   }
 

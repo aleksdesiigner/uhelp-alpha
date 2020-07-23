@@ -1,7 +1,14 @@
 #search {
   margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -22,6 +29,22 @@
   outline: none;
 }
 
+#filterInput::-webkit-input-placeholder {
+  font-size: 22px;
+}
+
+#filterInput::-moz-placeholder {
+  font-size: 22px;
+}
+
+#filterInput:-ms-input-placeholder {
+  font-size: 22px;
+}
+
+#filterInput::-ms-input-placeholder {
+  font-size: 22px;
+}
+
 #filterInput::placeholder {
   font-size: 22px;
 }
@@ -31,10 +54,18 @@
 }
 
 #requests {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 70px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 

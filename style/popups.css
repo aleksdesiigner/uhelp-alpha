@@ -45,8 +45,16 @@
 
 .login-email {
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   margin-top: 10px;
   margin-left: 20px;
@@ -70,8 +78,14 @@
 
 
 .login-pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   margin-top: 10px;
   margin-left: 20px;
@@ -95,8 +109,15 @@
 
 .login-btns {
   margin: 0 20px 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
@@ -210,8 +231,14 @@
 }
 
 .your-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   margin-top: 10px;
   margin-left: 20px;
@@ -239,8 +266,14 @@
 }
 
 .your-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   margin-top: 10px;
   margin-left: 20px;
@@ -267,6 +300,8 @@ textarea {
 
 .img-upload {
   display: inline-block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-size: 15px;
   margin: 20px 20px;
@@ -293,6 +328,7 @@ textarea {
 .file-upload-label {
   max-width: 250px;
   font-size: 15px;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -300,8 +336,15 @@ textarea {
 
 .popup-btns {
   margin: 0 20px 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
@@ -315,6 +358,10 @@ textarea {
   font-size: 14px;
   outline: none;
   cursor: pointer;
+}
+
+#btn-send:hover {
+  color: #ffffff;
 }
 
 #btn-close {
@@ -331,8 +378,14 @@ textarea {
 }
 
 .need-money {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   margin-top: 30px;
   margin-left: 20px;
@@ -355,8 +408,14 @@ textarea {
 }
 
 .your-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   margin-top: 30px;
   margin-left: 20px;
@@ -415,8 +474,14 @@ textarea {
   }
 
   .your-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-line-pack: center;
     align-content: center;
     margin-top: 10px;
     margin-left: 20px;
@@ -453,6 +518,8 @@ textarea {
 
   .img-upload {
     display: inline-block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 15px;
     margin: 20px 20px;
@@ -554,8 +621,16 @@ textarea {
 
   .login-email {
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-line-pack: center;
     align-content: center;
     margin-top: 10px;
     margin-left: 20px;
@@ -579,8 +654,14 @@ textarea {
 
 
   .login-pass {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-line-pack: center;
     align-content: center;
     margin-top: 10px;
     margin-left: 20px;
@@ -604,8 +685,15 @@ textarea {
 
   .login-btns {
     margin: 0 20px 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
   }
 

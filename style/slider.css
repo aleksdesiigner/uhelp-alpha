@@ -4,7 +4,11 @@
 }
 
 .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
 }
 
@@ -16,13 +20,23 @@
 
 
 .slider-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: 20px 0 70px 0;
   width: 1140px;
   height: 400px;
+  -webkit-box-shadow: 0px 10px 20px rgba(11, 40, 56, 0.05);
   box-shadow: 0px 10px 20px rgba(11, 40, 56, 0.05);
   border-radius: 5px;
 }
@@ -32,6 +46,9 @@
   position: absolute;
   width: 1140px;
   height: 400px;
+  background: -o-linear-gradient(45deg,
+      rgba(110, 54, 202, 0.75),
+      rgba(110, 54, 202, 0.85));
   background: linear-gradient(45deg,
       rgba(110, 54, 202, 0.75),
       rgba(110, 54, 202, 0.85));
@@ -48,8 +65,15 @@
 
 .slide-text {
   z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: absolute;
 }
@@ -93,8 +117,15 @@
 
   .slide-text {
     z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: absolute;
   }
@@ -132,8 +163,15 @@
 
   .slide-text {
     z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: absolute;
   }
@@ -165,14 +203,25 @@
 @media (max-width: 720px) {
 
   .slider-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
     margin: 20px 0 70px 0;
     width: 360px;
     height: 350px;
+    -webkit-box-shadow: 0px 10px 20px rgba(11, 40, 56, 0.05);
     box-shadow: 0px 10px 20px rgba(11, 40, 56, 0.05);
     border-radius: 5px;
   }
@@ -182,6 +231,9 @@
     position: absolute;
     width: 360px;
     height: 350px;
+    background: -o-linear-gradient(45deg,
+        rgba(110, 54, 202, 0.75),
+        rgba(110, 54, 202, 0.85));
     background: linear-gradient(45deg,
         rgba(110, 54, 202, 0.75),
         rgba(110, 54, 202, 0.85));
@@ -198,8 +250,15 @@
 
   .slide-text {
     z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: absolute;
   }

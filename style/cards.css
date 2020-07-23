@@ -7,8 +7,15 @@ h2 {
 }
 
 .important-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -23,38 +30,60 @@ h2 {
 }
 
 .card-img {
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 5px 5px 0px 0px;
 }
 
 .imp-req-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 70px;
 }
 
 .req-card {
   margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 270px;
   height: 450px;
   background: #ffffff;
+  -webkit-box-shadow: 0px 10px 15px rgba(11, 40, 56, 0.05);
   box-shadow: 0px 10px 15px rgba(11, 40, 56, 0.05);
   border-radius: 5px;
 }
 
 .req-card:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0px 10px 15px rgba(65, 8, 75, 0.205);
   box-shadow: 0px 10px 15px rgba(65, 8, 75, 0.205);
 }
 
 
 
 .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   margin: 15px 15px 0 15px;
 }
@@ -103,8 +132,15 @@ h2 {
 }
 
 .donate-inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 20px 15px 0 15px;
 }
@@ -139,26 +175,48 @@ progress::-webkit-progress-value {
 /* BLOGS */
 .blog-section {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .blogs-cards {
   width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 70px;
 }
 
 .blog-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 366px;
   height: 410px;
   background: #ffffff;
+  -webkit-box-shadow: 0px 10px 15px rgba(11, 40, 56, 0.05);
   box-shadow: 0px 10px 15px rgba(11, 40, 56, 0.05);
   border-radius: 5px;
 }
@@ -166,10 +224,12 @@ progress::-webkit-progress-value {
 
 .blog-card:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0px 10px 15px rgba(65, 8, 75, 0.205);
   box-shadow: 0px 10px 15px rgba(65, 8, 75, 0.205);
 }
 
 .blog-img {
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 5px 5px 0px 0px;
 }
@@ -236,8 +296,15 @@ progress::-webkit-progress-value {
 
   .blogs-cards {
     width: 960px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 70px;
   }
@@ -254,6 +321,7 @@ progress::-webkit-progress-value {
 
   .blog-img {
     width: 310px;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
   }
@@ -269,9 +337,17 @@ progress::-webkit-progress-value {
 
   .imp-req-cards {
     width: 720px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 70px;
   }
@@ -298,9 +374,17 @@ progress::-webkit-progress-value {
 
   .blogs-cards {
     width: 720px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 70px;
   }
@@ -321,6 +405,7 @@ progress::-webkit-progress-value {
 
   .blog-img {
     width: 350px;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
   }
@@ -334,9 +419,17 @@ progress::-webkit-progress-value {
   }
 
   .imp-req-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 70px;
     width: 360px;
@@ -368,8 +461,15 @@ progress::-webkit-progress-value {
 
   .blogs-cards {
     width: 360px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 70px;
   }
@@ -394,6 +494,7 @@ progress::-webkit-progress-value {
 
   .blog-img {
     width: 360px;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
   }
