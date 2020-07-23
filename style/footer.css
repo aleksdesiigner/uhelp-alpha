@@ -85,3 +85,35 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 720px) {
+  .foot-container {
+    max-width: 360px;
+  }
+
+  .foot-nav ul li a.foot-link {
+    display: none;
+  }
+
+  .foot-logo {
+    width: 360px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .foot-more-info {
+    display: none;
+
+  }
+
+  .foot-info p {
+    width: 360px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--font-gray);
+  }
+}

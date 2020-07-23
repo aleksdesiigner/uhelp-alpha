@@ -18,6 +18,10 @@ h2 {
   font-weight: 500;
 }
 
+.btn-view:hover {
+  color: #7a3edb;
+}
+
 .card-img {
   object-fit: cover;
   border-radius: 5px 5px 0px 0px;
@@ -264,6 +268,7 @@ progress::-webkit-progress-value {
   }
 
   .imp-req-cards {
+    width: 720px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -278,11 +283,11 @@ progress::-webkit-progress-value {
   }
 
   .card-title {
-    width: 310px;
+    width: 320px;
   }
 
   .card-text {
-    width: 310px;
+    width: 320px;
   }
 
   .donate-bar {
@@ -303,6 +308,7 @@ progress::-webkit-progress-value {
   .blog-card:last-child {
     display: none;
   }
+
   .blog-card {
     width: 350px;
     height: 410px;
@@ -315,6 +321,79 @@ progress::-webkit-progress-value {
 
   .blog-img {
     width: 350px;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  .card-img {
+    width: 360px;
+  }
+
+  .imp-req-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    width: 360px;
+  }
+
+
+  .req-card {
+    width: 360px;
+    height: 450px;
+  }
+
+  .req-card:last-child {
+    display: none;
+  }
+
+  .card-title {
+    width: 340px;
+  }
+
+  .card-text {
+    width: 340px;
+  }
+
+  .donate-bar {
+    width: 360px;
+  }
+
+  /* BLOGS */
+
+  .blogs-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+  .blog-card:last-child {
+    display: none;
+  }
+
+  .blog-card:first-child {
+    margin-bottom: 30px;
+  }
+
+  .blog-card {
+    width: 360px;
+    height: 410px;
+  }
+
+  .blog-title {
+    width: 340px;
+    color: var(--font-dark);
+  }
+
+  .blog-img {
+    width: 360px;
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
   }

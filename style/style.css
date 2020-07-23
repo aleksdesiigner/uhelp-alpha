@@ -34,6 +34,20 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #a771fe33;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #a771fe67;
+
+}
+
 /* MAIN */
 
 .main-container {
@@ -242,6 +256,7 @@ body {
 }
 
 .part-logo {
+  cursor: pointer;
   width: 180px;
   height: 120px;
   display: flex;
@@ -290,6 +305,7 @@ body {
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    cursor: pointer;
   }
 
 
@@ -462,6 +478,116 @@ body {
     width: 200px;
     height: 120px;
   }
+}
 
 
+@media (max-width: 720px) {
+  .main-container {
+    width: 100%;
+    width: 360px;
+  }
+
+  /* CATEGORIES */
+
+  .categ-cards {
+    flex-wrap: wrap;
+    width: 360px;
+    display: flex;
+
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .card-categ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+  }
+
+  .card-categ span {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .card-categ img {
+    width: 45px;
+  }
+
+  /* STORIES */
+
+  .stories-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+  .img-story {
+    display: flex;
+    position: relative;
+    width: 360px;
+  }
+
+  .frame-top {
+    top: -5px;
+    left: 20px;
+    z-index: 3;
+    position: absolute;
+    width: 340px;
+  }
+
+  .photo-story {
+    z-index: 1;
+    left: 5px;
+    position: relative;
+    width: 360px;
+  }
+
+  .frame-bottom {
+    width: 340px;
+    top: 10px;
+    left: 10px;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .text-story {
+    margin-top: 50px;
+    text-align: center;
+    width: 360px;
+  }
+
+  /* PARTNERS */
+
+  .partner-first {
+    flex-wrap: wrap;
+    margin-top: 70px;
+    width: 360px;
+  }
+
+  .partner-second {
+    margin-top: -10px;
+    flex-wrap: wrap;
+    width: 360px;
+    justify-content: center;
+  }
+
+  .part-logo {
+    width: 180px;
+    height: 120px;
+  }
 }

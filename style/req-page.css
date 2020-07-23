@@ -37,3 +37,27 @@
   margin-bottom: 70px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1200px) {
+
+
+  #filterInput {
+    width: 960px;
+
+  }
+
+
+}
+
+@media (max-width: 960px) {
+  #filterInput {
+    width: 720px;
+
+  }
+}
+
+@media (max-width: 720px) {
+  #filterInput {
+    width: 360px;
+  }
+}

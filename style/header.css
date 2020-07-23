@@ -41,10 +41,21 @@ hr {
 }
 
 .menu-links ul li a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--font-dark);
   font-weight: 500;
   font-size: 14px;
+  height: 40px;
+}
+
+.btn-login:hover {
+  color: #7a3edb;
+}
+
+.btn-add-small {
+  display: none;
 }
 
 .btn-add {
@@ -56,6 +67,7 @@ hr {
   padding: 12px 26px;
   outline: none;
 }
+
 
 .btn-add:hover {
   cursor: pointer;
@@ -103,15 +115,16 @@ hr {
   font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
+  height: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .categories-menu ul li:hover {
   color: var(--main-clr);
-  font-style: italic;
 }
 
 .active {
-  font-style: italic;
   color: var(--main-clr);
   font-weight: 500;
 }
@@ -199,6 +212,10 @@ hr {
     border-radius: 100px;
     padding: 12px 26px;
     outline: none;
+  }
+
+  .btn-add-small {
+    display: none;
   }
 
   .btn-add:hover {
@@ -301,5 +318,85 @@ hr {
 
   .ban-text {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 720px) {
+  .head-container {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .top-menu {
+    width: 360px;
+    height: 80px;
+  }
+
+  .small-banner {
+    width: 360px;
+  }
+
+  .ban-text {
+    font-size: 14px;
+  }
+
+  .explore {
+    display: none;
+  }
+
+  .menu-links ul li a {
+    display: none;
+  }
+
+  .btn-add {
+    display: none;
+  }
+
+  .btn-add-small {
+    display: flex;
+    color: var(--main-clr);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--btn-opacity);
+    border-radius: 100px;
+    padding: 12px 22px;
+    outline: none;
+  }
+
+  .btn-add-smal:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--main-clr);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+  }
+
+  .btn-add-smal:active {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #7a3edb;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+  }
+
+  .categories-menu ul {
+    width: 360px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .categories-menu ul li {
+    /* color: var(--font-gray); */
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .categories-menu ul li:hover {
+    color: var(--main-clr);
   }
 }
