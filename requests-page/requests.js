@@ -41,3 +41,8 @@ document.querySelector('#filterInput').oninput = function () {
    }
 
 }
+
+
+$('.req-card').on('click', function (event) {
+   window.location.href = '../details/reqdetails.html';
+});

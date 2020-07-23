@@ -59,7 +59,7 @@ $("#btn-close-login").click(function () {
 });
 
 
-// Popup Open and close
+// Popup add request Open and close
 
 $(".btn-add").click(function () {
   $(".popup-add").fadeIn();
@@ -114,5 +114,13 @@ $("#btn-send").click(function (e) {
 //====================================================================
 
 $('.req-card').on('click', function (event) {
-  window.location.href = 'reqdetails.html';
+  window.location.href = 'details/reqdetails.html';
 });
+
+
+// localStorage.setItem("key-user", JSON.stringify({
+//   username: "Aleksey",
+// }));
+
+const user = localStorage.getItem("key-user");
+const parsedUser = JSON.parse(user)

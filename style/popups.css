@@ -134,6 +134,10 @@
   cursor: pointer;
 }
 
+#btn-sign-in:hover {
+  color: #ffffff;
+}
+
 #btn-close-login {
   margin-right: 10px;
   text-decoration: none;
