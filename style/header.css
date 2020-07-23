@@ -484,19 +484,23 @@ hr {
   .categories-menu ul {
     width: 360px;
     overflow-x: auto;
-    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .categories-menu ul li {
     /* color: var(--font-gray); */
     font-weight: 500;
     font-size: 14px;
+    margin: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
     height: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -504,5 +508,13 @@ hr {
 
   .categories-menu ul li:hover {
     color: var(--main-clr);
+  }
+
+  .categories-menu ul li:first-child {
+    margin: 0;
+  }
+
+  .categories-menu ul li:last-child {
+    margin: 0;
   }
 }
