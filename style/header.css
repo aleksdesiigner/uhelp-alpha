@@ -482,10 +482,11 @@ hr {
   }
 
   .categories-menu ul {
+    height: 80px;
     width: 360px;
     overflow-x: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
@@ -500,7 +501,6 @@ hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -510,11 +510,4 @@ hr {
     color: var(--main-clr);
   }
 
-  .categories-menu ul li:first-child {
-    margin: 0;
-  }
-
-  .categories-menu ul li:last-child {
-    margin: 0;
-  }
 }

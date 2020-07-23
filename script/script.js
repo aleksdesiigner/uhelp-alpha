@@ -66,6 +66,10 @@ $(".btn-add").click(function () {
   $(".popup-add").addClass("disabled");
 });
 
+$(".btn-add-small").click(function () {
+  $(".popup-add").fadeIn();
+  $(".popup-add").addClass("disabled");
+});
 
 $("#btn-close").click(function () {
   $(".popup-add").fadeOut();
